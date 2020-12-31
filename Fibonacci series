@@ -1,0 +1,12 @@
+a=-1
+b=1
+i=0
+fibo=[]
+n=int(input("Enter no of terms:"))
+While i<n:
+   s=a+b
+   fibo.append(s)
+   a=b
+   b=s
+   i=i+1
+print("The fibonaci series:",fibo)
